@@ -28,15 +28,13 @@ bot.on("message", async message => {
 
     var arguments = messageArray.slice(1);
 
-    if (command === `${prefix}hey`) {
+    client.on('message', message => {
+        
+    if (message.content.toLowerCase() === 'hey')
+        message.channel.send('Hey I got cheez whiz' + message.author);
 
-        return message.channel.send("Hey I got cheez whiz");
-
-    }
-
-    if (command === `${prefix}ryan babe`) {
-
-        return message.channel.send("Hey Babe :heart:");
+    if (message.content.toLowerCase() === 'ryan babe')
+        message.channel.send('Hey babe :heart:' + message.author);
 
     }
 
