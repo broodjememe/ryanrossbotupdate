@@ -1,0 +1,23 @@
+{
+  "name": "ryan_ross",
+  "version": "1.0.0",
+  "description": "Good Singer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "ryan",
+    "ross",
+    "singer"
+  ],
+  "author": "Jimmie",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
